@@ -1,0 +1,5 @@
+Aca estoy creando una interfaz Flys para que despues los objetos tengan de atributo un objeto que la implemente y se le
+pueda aplicar polimorfismo. Hay 2 clases que la implementan a la interfaz, Flys y CantFly. Cada uno de estos se le
+asigna a los objetos en el constructor, ademas de que existe un metodo dentro de Animal para setearla dinamicamente.
+Ahora los objetos no vuelan, sino que llaman al metodo volar de su atributo que implementa la interfaz y esta tiene
+encapsulada la logica. Esto le quita responsabilidad al objeto.
