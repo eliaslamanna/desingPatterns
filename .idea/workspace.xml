@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732fe440-d6da-4aaf-ae18-5e96549154b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Abierta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Cerrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/EstadoVentanilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Suspendida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Ventanilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/IVA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ProductoDescuento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ProductoNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/explicacion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desingPatterns.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/CantFly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Flys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/ItFlys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619075875273</updated>
       <workItem from="1619075887118" duration="1408000" />
-      <workItem from="1620433381163" duration="1641000" />
+      <workItem from="1620433381163" duration="4217000" />
     </task>
     <servers />
   </component>
