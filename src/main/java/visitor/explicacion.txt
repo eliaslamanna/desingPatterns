@@ -1,11 +1,26 @@
-Busca separar un algoritmo de la estructura de un objeto. La operación se implementa de forma que no se modifique el código de las clases sobre las que opera.
-Si un objeto es el responsable de mantener un cierto tipo de información, entonces es lógico asignarle también la responsabilidad de realizar todas las operaciones necesarias sobre esa información. La operación se define en cada una de las clases que representan los posibles tipos sobre los que se aplica dicha operación, y por medio del polimorfismo y la vinculación dinámica se elige en tiempo de ejecución qué versión de la operación se debe ejecutar. De esta forma se evita un análisis de casos sobre el tipo del parámetro.
+Visitor -> visit(tipo especifico)
+Visitable -> accept(Visitor) -> hace visitor.visit(this)
+
+Busca separar un algoritmo de la estructura de un objeto. La operación se implementa de forma que no se
+modifique el código de las clases sobre las que opera. -> Importante: aca por ejemplo hago calculos con cosas de un
+objeto, que capaz lo quiero hacer de varias formas, estas cuentas van a estar en la clase visitor y no en la clase en si.
+Si un objeto es el responsable de mantener un cierto tipo de información, entonces es lógico asignarle
+
+también la responsabilidad de realizar todas las operaciones necesarias sobre esa información.
+La operación se define en cada una de las clases que representan los posibles tipos sobre los que se
+aplica dicha operación, y por medio del polimorfismo y la vinculación dinámica se elige en tiempo de
+ejecución qué versión de la operación se debe ejecutar. -> Importante: cuando el visitable *acepta* al visitor se le
+pasa una referencia *this*, entonces despues el visitor va a saber elegir dentro de todas sus opciones cual caso es
+y como ejecutar su accion con el objeto que se le paso
+
+Visitor y Visitable son interfaces entonces puedo tener varios visitors distintos que *visiten* de forma distinta a
+cada tipo de objeto. En el caso de la interfaz Visitor se hace una sobrecarga con cada tipo especifico de Visitable,
+ya que pasan una referencia de ellos mismos cuando lo aceptan, pero en el caso de los Visitables todos reciben
+un Visitor ya que no saben cual va a ser el que lo visite
 
 Se usa cuando:
--Una estructura de objetos contiene muchas clases de objetos con distintas interfaces y se desea llevar a cabo operaciones sobre estos objetos que son distintas en cada clase concreta.
--Se quieren llevar a cabo muchas operaciones dispares sobre objetos de una estructura de objetos sin tener que incluir dichas operaciones en las clases.
--Las clases que definen la estructura de objetos no cambian, pero las operaciones que se llevan a cabo sobre ellas
--Se debe utilizar este patrón si se quiere realizar un cierto número de operaciones, que no están relacionadas entre sí, sobre instancias de un conjunto de clases, y no se quiere “contaminar” a dichas clases.
+-quiero relizar las mismas acciones sobre objetos de diferentes clases de manera distinta y sin tener que *contaminar*
+a esos objetos con estos metodos (las acciones en si las tiene el visitor, el visitable solo *acepta* a este
 
 Consecuencias:
 -Facilita la inclusión de nuevas operaciones.

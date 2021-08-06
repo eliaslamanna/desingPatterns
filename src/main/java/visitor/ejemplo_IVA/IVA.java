@@ -1,4 +1,4 @@
-package visitor;
+package visitor.ejemplo_IVA;
 
 public class IVA implements Visitor {
     private final double impuestoNormal = 1.21;

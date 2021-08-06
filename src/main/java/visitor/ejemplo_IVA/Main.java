@@ -1,4 +1,4 @@
-package visitor;
+package visitor.ejemplo_IVA;
 
 public class Main {
     public static void main(String[] args) {
