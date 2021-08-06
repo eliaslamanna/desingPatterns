@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732fe440-d6da-4aaf-ae18-5e96549154b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/HolidayTaxVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/Liquor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/Necessity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/Tabacco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/TaxVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/Visitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_taxes/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/SingletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/explicacion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/uml.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/CantFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/CantFly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/ItFlys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/ItFlys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/IVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_IVA/IVA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_IVA/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/ProductoDescuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_IVA/ProductoDescuento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/ProductoNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_IVA/ProductoNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_IVA/Visitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/ejemplo_IVA/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visitor/explicacion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitor/explicacion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +85,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/singleton" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -126,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.Main" />
+      <module name="desingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Main" />
       <module name="desingPatterns" />
@@ -141,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>

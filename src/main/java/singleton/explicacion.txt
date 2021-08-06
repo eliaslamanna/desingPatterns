@@ -1,0 +1,7 @@
+-una clase administra su propia instancia y evita que cualquier otra clase cree una
+-proporciona punto de acceso (getInstance())
+
+-Como crearla:
+-> crear un atributo static privado del mismo tipo que la clase (la instance)
+-> constructor privado
+-> getInstance() -> lazy, si instancia es null le asigna un new de la clase antes de retornar this.instance
