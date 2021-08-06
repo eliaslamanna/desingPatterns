@@ -1,0 +1,8 @@
+-se usa cuando quiero crear *grupos* de cosas, en los que una accion en conjunto significa la ejecucion de las partes
+(calcular la renta de un edificio, mover una mano)
+-hay una clase individual y una clase grupal, la cual puede estar compuesta de individuales u otras grupales
+-tanto la clase individual como la grupal implementan la misma interfaz
+-las clases individuales tienen la implementacion de verdad de un metodo, las grupales recorren la lista que tengan
+ejecutando en cada una esta accion -> como implementan la misma interfaz, el metodo va a ser el mismo, entonces por
+                                      polimorfismo se ejecuta en cadena para todos los objetos (si es grupal sigue
+                                      ejecutando)
