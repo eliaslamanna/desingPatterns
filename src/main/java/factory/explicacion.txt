@@ -1,0 +1,5 @@
+-se usa para crear un objeto de una jerarquia
+-encapsula creacion (no hay new salvo en factory)
+-no se sabe de antemano que clase se va a necesitar
+-el metodo *construir* de la factory es estatico y devuelve un objeto padre
+-la factory es recomendable hacerla una factory

@@ -5,14 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732fe440-d6da-4aaf-ae18-5e96549154b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Departamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/DeptoComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/DeptoFinanciero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/DeptoVentas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/explicacion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/uml2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/Coca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/Gaseosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/GaseosaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/explicacion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/uml.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/composite/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/composite/Departamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/composite/DeptoComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/composite/DeptoComposite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/composite/DeptoFinanciero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/composite/DeptoFinanciero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/composite/DeptoVentas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/composite/DeptoVentas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/composite/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/composite/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleton/SingletonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleton/SingletonClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Abierta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Abierta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Cerrada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Cerrada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/EstadoVentanilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/EstadoVentanilla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Suspendida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Suspendida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/state/Ventanilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/state/Ventanilla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Bird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/CantFly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/CantFly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Flys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Flys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/ItFlys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/ItFlys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/IVA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/IVA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/ProductoDescuento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/ProductoDescuento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/ProductoNormal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/ProductoNormal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/Visitable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/Visitable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_IVA/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/HolidayTaxVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/HolidayTaxVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Liquor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Liquor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Necessity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Necessity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Tabacco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Tabacco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/TaxVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/TaxVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Visitable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Visitable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/visitor/ejemplo_taxes/Visitor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +129,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/factory" />
       <recent name="$PROJECT_DIR$/src/main/java/composite" />
       <recent name="$PROJECT_DIR$/src/main/java/singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -145,6 +185,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.Main" />
+      <module name="desingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Main" />
       <module name="desingPatterns" />
@@ -160,6 +213,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
