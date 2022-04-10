@@ -1,0 +1,13 @@
+-se usa para crear un grupo de subclases que van a ejecutar un grupo parecido de metodos
+-hay que crear una clase abstracta que contiene un metodo (Template Method)
+-el Template Method contiene una serie de llamados a metodos que las subclases van a llamar
+-las subclases pueden sobreescribir algunos de los llamados a los metodos
+
+pros:
+-hace que se puedan modificar solo las partes necesarias, afectando menos en otras partes del codigo
+-el codigo duplicado va en la clase padre
+
+cons:
+-limitado al esqueleto del Template Method
+-viola Liskov sustitution principle (puede haber metodos que no sirvan en subclases)
+-Template Method mas dificil de mantener entre mas pasos tenga

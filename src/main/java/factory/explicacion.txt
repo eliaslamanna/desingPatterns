@@ -2,6 +2,6 @@
 -encapsula creacion (no hay new salvo en factory)
 -no se sabe de antemano que clase se va a necesitar
 -el metodo *construir* de la factory es estatico y devuelve un objeto padre
--la factory es recomendable hacerla una factory
+-la factory es recomendable hacerla una singleton
 
 -existe un cliente o algo mas que tiene una lista de los items y utiliza esta factory para crearlos
