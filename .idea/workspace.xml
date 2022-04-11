@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732fe440-d6da-4aaf-ae18-5e96549154b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/templete_method/Hoagie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templete_method/ItalianHoagie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templete_method/SandwichSculptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templete_method/VeggieHoagie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templete_method/explicacion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/ESEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/ESUFOBossEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/ESUFOBossGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/ESUFOEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/ESUFOGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/ESWeapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/EnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/EnemyShipBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/EnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/EnemyShipTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/UFOBossEnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/UFOBossEnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/UFOEnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/UFOEnemyShipBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/UFOEnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/explicacion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/explicacion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/explicacion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +101,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="abstract_factory" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/factory" />
       <recent name="$PROJECT_DIR$/src/main/java/composite" />

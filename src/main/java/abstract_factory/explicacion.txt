@@ -1,0 +1,3 @@
+-es como el factory pero esta todo encapsulado
+-te permite crear familia de objetos relacionados sin especificar una clase concreta
+-se usa cuando hay muchos objetos que se pueden agregar o cambiar dinamicamente en runtime
