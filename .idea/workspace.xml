@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732fe440-d6da-4aaf-ae18-5e96549154b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/otraForma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/EnemyAttacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/EnemyRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/EnemyRobotAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/EnemyTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/explicacion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/uml.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/Mozzarella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/Mozzarella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/PlainPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/PlainPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/explicacion" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/explicacion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorator/Mozzarella.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/Mozzarella.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorator/PlainPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/PlainPizza.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.Main" />
       <module name="desingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.SandwichSculptor" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,15 @@
+-permite que 2 interfaces incompatibles trabajen juntas
+-se usa cuando el cliente espera cierta (Target) interfaz
+-la Adapter class permite usar la interfaz disponible y la Target interfaz
+-cualquier clase puede trabajar en conjunto mientras que el Adapter solucione el tema de que todas las clases deben implementar todos los
+metodos definidos por la interfaz compartida
+
+En este ejemplo voy a tener un cliente que lo que va a querer es un EnemyAttacker (Target).
+Todos los EnemyAttacker van a hacer lo que dice la interfaz pero yo voy a querer crear un EnemyRobot que tiene ninguno de los metodos
+que especifica la interfaz EnemyAttacker.
+Ahi entra el EnemyRobotAdapter proporcionando los metodos que falta.
+EnemyAtaccker -> Target (lo que el cliente espera estar trabajando con)
+EnemyRobotAdapter -> Adapter (tiene como atributo un Adaptee)
+EnemyRobot -> Adaptee
+Cuando se llama un metodo de la clase Target que no tiene el Adaptee lo que se hace es llamar al metodo del Adapter y ese metodo apunta al metodo
+posta del Adaptee
