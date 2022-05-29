@@ -1,0 +1,11 @@
+-se usa cuando necesitas que varios objetos se actualicen cuando otro objeto cambia
+-hay 2 elementos:
+    -Subject (publisher)
+    -Observer (subscriber)
+-se baja el acoplamiento -> el publisher no tiene porque saber nada de los susbscribers
+-algo que puede ser malo -> publisher puede que mande updates que no le interesen a los subscribers
+-se llama al metodo update de cada subscriber
+-el subject (publisher) agrega, elimina y manda el mensaje para que se actualicen sus observers (subscribers)
+-se pueden usar Threads para este patron
+-la clase que implementa la interfaz de Subject va a tener como atributo un array de Observers
+-los observer a su vez tiene que conocer quien es su Subject (se les pasa por parametro)
