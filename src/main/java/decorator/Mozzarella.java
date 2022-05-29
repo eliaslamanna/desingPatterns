@@ -6,7 +6,6 @@ public class Mozzarella extends ToppingDecorator {
         super(newPizza);
 
         //Para ir chequeando que voy haciendo
-        System.out.println("Adding Dough");
         System.out.println("Adding Moz");
     }
 

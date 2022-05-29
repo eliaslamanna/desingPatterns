@@ -3,8 +3,9 @@
 -es mas flexible que la herencia (usa composicion en vez de herencia)
 -simplifica el codigo porque agregas funcionalidad usando clases simples
 -en vez de reescribir el codigo viejo lo extendes con nuevo codigo
+-tiene que ver con open/close de SOLID, modificar clases mediante su expansion
 
-En el ejemlo quiero tener diferentes tipos de pizzas, con descripciones y valores distintos.
+En el ejemplo quiero tener diferentes tipos de pizzas, con descripciones y valores distintos.
 Si creo una clase abstracta y hago que despues todas las clases hijas extiendan y sobrescriban sus metodos estaria bien
 pero tendria que crear muchas clases hijas todas con misma logica pero distintos valores.
 Si uso composicion en vez de herencia, esto se vuelve mucho mas dinamico.  (con interfaz y decorator)
@@ -15,3 +16,8 @@ Creo ahora las clases que van a ser los tipos de pizza que van a extener a Toppi
 Hago otra vez los metodos de obtener descripcion y valor pero ahora agregandoles ya a lo que hacian un + con lo nuevo del tipo.
 Es importante que en el constructor se recibe una Pizza otre vez, entonces cuando hago new de un tipo voy encadenando los tipos que
 quiero y se van sumando sus descripciones y costos.
+La otra cosa importante es que la clase principal (PlainPizza) implementa la interfaz, esto es porque no quiere recibir como atributo de
+constructor otra pizza, ya que es la pizza base.
+Se van encandenando los llamados con los atributos de cada clase hasta llegar a la clase base y se devuelve el String y double completos
+
+Mozzarella y TomatoSauce vendrian a ser decorators (los concretos) Pizza el Component y PlainPizza el componente concreto

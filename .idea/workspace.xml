@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="732fe440-d6da-4aaf-ae18-5e96549154b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Mozzarella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/PlainPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/TomatoSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ToppingDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/explicacion" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/otraForma.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/state/EstadoVentanilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/state/EstadoVentanilla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/explicacion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/explicacion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templete_method/Hoagie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templete_method/Hoagie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/Mozzarella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/Mozzarella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/PlainPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/PlainPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/explicacion" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/explicacion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/decorator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/decorator/Mozzarella.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/Mozzarella.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/decorator/PlainPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/PlainPizza.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
